@@ -72,4 +72,4 @@ pass_file=f'{pair_name}_passphrase.txt'
 with open(pass_file, 'w') as f:
     f.write(passphrase)
 
-print(f'Keys generated. Look at the files:\n - {priv_file}\n - {pub_file}\n - {pass_file}')
+print(f'Keys generated.\nLook at the files:\n - {priv_file}\n - {pub_file}\n - {pass_file}')
